@@ -132,5 +132,5 @@ for traincv, testcv in cv.split(X_data):
         acc = accuracy_score(y_data[testcv], train_predictions)
         accuracy+= acc
        
-
+accuracy = 100*accuracy
 print('\n5 Fold Cross Validation Accuracy on Training Set: '+str(accuracy))
