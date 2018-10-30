@@ -22,4 +22,4 @@
 
 # Execution of code:-
 -Open terminal or ide and run the main.py file
-*Note: The text files containing the data and python files should be in same folder
+- *Note: The text files containing the data and python files should be in same folder
