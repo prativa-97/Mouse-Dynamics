@@ -1,8 +1,11 @@
 # Mouse-Dynamics for imposter detection
   '''
-  Machine Intelligence and Expert Systems Term Project, 
+  Machine Intelligence and Expert Systems Term Project,
+ 
   Autumn Semester, 2018-19,
+
   Department of Electronics and Electrical Communication Engg,
+
   IIT Kharagpur
   '''
 
