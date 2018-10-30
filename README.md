@@ -23,10 +23,7 @@
 
   3.pandas
   
-  4.time
-  
-  5.math
-  
+ 
 
 ## Execution of code:-
 - Open terminal or ide and run the **main.py** file
