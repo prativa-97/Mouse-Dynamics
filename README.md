@@ -54,7 +54,7 @@
 - Data is pre-processed
 - Gaussian Naive-Bayes Model is implemented 
 - Accuracy is calculated by taking the ratio of correctly labelled to total points
-- To improve further accuracy, **five fold cross validation** is used.
+- To validate, **five fold cross validation** is used.
 
 ## Execution of code:-
 - Open terminal or ide and run the **main.py** file
@@ -62,16 +62,19 @@
 
 ## Results:-
 OBTAINED ACCURACY 
-1.When number of classes(users) is 5:
+ 1.When number of classes(users) is 5:
      - GaussianNB:- 49.49833% 
-     - GaussianNB with 5-fold Cross validation:-78.994413%
+     - GaussianNB with 5-fold Cross validation:- 15.798%
      
-2.When number of classes(users) is 8:
+          
+ 2.When number of classes(users) is 8:
      - GaussianNB:-  83.49355%
-     - GaussianNB wit 5-fold Cross validation:- 336.95%
-3.When number of classes(users) is 9: 
+     - GaussianNB wit 5-fold Cross validation:- 67.2%
+     
+     
+ 3.When number of classes(users) is 9: 
      - GaussianNB:-  94.75419%
-     - GaussianNB wit 5-fold Cross validation:- 403.37%
+     - GaussianNB wit 5-fold Cross validation:- 80.674%
   
 ## Conclusion:
 We can witness a significant increase in the accuracy when the training dataset is increased.
