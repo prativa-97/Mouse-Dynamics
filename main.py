@@ -51,7 +51,7 @@ X_hrs['Class']=7
 print('\nDataset 8 extracted')
 
 X_dhn = extractor.features(13,"data/dhananjay/")
-X_dhn= pd.DataFrame(X_ksn)
+X_dhn= pd.DataFrame(X_dhn)
 X_dhn['Class']=8
 print('\nDataset 9 extracted')
 
