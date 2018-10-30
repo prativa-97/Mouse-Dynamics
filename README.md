@@ -5,11 +5,11 @@
   IIT Kharagpur
 
 # Group No:- 18
-> Arka Sourav Karmakar         (15EC10007)
-> Nikhil Singh                 (15EC10035)
-> Aryendra Kumar               (15EE10008)
-> Prativa Das                  (15IE10020)
-> Debalina Chowwdhury          (15MF10005)
+- Arka Sourav Karmakar         (15EC10007)
+- Nikhil Singh                 (15EC10035)
+- Aryendra Kumar               (15EE10008)
+- Prativa Das                  (15IE10020)
+- Debalina Chowwdhury          (15MF10005)
 
 # Required python packages:-
   1.Numpy 
