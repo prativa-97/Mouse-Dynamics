@@ -64,7 +64,7 @@ OBTAINED ACCURACY
           
  ###### 2.When number of classes(users) is 8:
            - GaussianNB:-  83.49355%
-           - GaussianNB with 5-fold Cross validation:- 67.2%
+           - GaussianNB with 5-fold Cross validation:- 67.39%
      
      
  ###### 3.When number of classes(users) is 9: 
