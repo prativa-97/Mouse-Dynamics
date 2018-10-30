@@ -62,19 +62,19 @@
 
 ## Results:-
 OBTAINED ACCURACY 
- 1.When number of classes(users) is 5:
-     - GaussianNB:- 49.49833% 
-     - GaussianNB with 5-fold Cross validation:- 15.798%
+ ###### 1.When number of classes(users) is 5:-
+           - GaussianNB:- 49.49833% 
+           - GaussianNB with 5-fold Cross validation:- 15.798%
      
           
- 2.When number of classes(users) is 8:
-     - GaussianNB:-  83.49355%
-     - GaussianNB wit 5-fold Cross validation:- 67.2%
+ ###### 2.When number of classes(users) is 8:
+           - GaussianNB:-  83.49355%
+           - GaussianNB wit 5-fold Cross validation:- 67.2%
      
      
- 3.When number of classes(users) is 9: 
-     - GaussianNB:-  94.75419%
-     - GaussianNB wit 5-fold Cross validation:- 80.674%
+ ###### 3.When number of classes(users) is 9: 
+            - GaussianNB:-  94.75419%
+            - GaussianNB wit 5-fold Cross validation:- 80.674%
   
 ## Conclusion:
 We can witness a significant increase in the accuracy when the training dataset is increased.
