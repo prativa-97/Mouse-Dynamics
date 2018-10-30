@@ -26,6 +26,11 @@
   4.time
   
   5.math
+  
+
+## Execution of code:-
+- Open terminal or ide and run the **main.py** file
+- Note: The text files containing the data and python files *should be in same folder*
 
 ## Steps followed:-
 ###### Dataset Collection:-
@@ -54,3 +59,21 @@
 ## Execution of code:-
 - Open terminal or ide and run the **main.py** file
 - Note: The text files containing the data and python files *should be in same folder*
+
+## Results:-
+OBTAINED ACCURACY 
+1.When number of classes(users) is 5:
+     - GaussianNB:- 49.49833% 
+     - GaussianNB with 5-fold Cross validation:-78.994413%
+     
+2.When number of classes(users) is 8:
+     - GaussianNB:-  83.49355%
+     - GaussianNB wit 5-fold Cross validation:- 336.95%
+3.When number of classes(users) is 9: 
+     - GaussianNB:-  94.75419%
+     - GaussianNB wit 5-fold Cross validation:- 403.37%
+  
+## Conclusion:
+We can witness a significant increase in the accuracy when the training dataset is increased.
+
+
