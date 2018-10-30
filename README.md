@@ -9,7 +9,7 @@
   IIT Kharagpur
 
 
-## Group No:- 18
+## Group No: 18
 - Arka Sourav Karmakar         (15EC10007)
 - Nikhil Singh                 (15EC10035)
 - Aryendra Kumar               (15EE10008)
@@ -38,20 +38,18 @@
 
 ###### Extracting Dataset:-
 - Reference:- **extractor.py**
-- In accordance to the 0th element of a row(i.e.-MM/MC/MR..), we have writtens corresponding codes to extract the feature using 1st to last element of the row.
-- The basics of mouse movement: X-coordinate, Y-coordinate, Theta value etc are extracted using the written code
+- Pre-processes the raw data and transform it to contain hold time and latencies for all combination of keystrokes, 
+- The basics of mouse movement: X-coordinate, Y-coordinate, Theta value etc are extracted.
 
 
 ###### Naive- Bayes Classifier:-
 - Reference:- **main.py**
-- Every user is assigned a particular class (0 to n-1 if n users are there)
-- Training and testing data for every user is defined after the complete data is extracted using extractor.py
-- X-test, X-train are defined using user data
-- y_train and y_test are assigned as the user class
-- Data is pre-processed
-- Gaussian Naive-Bayes Model is implemented 
-- Accuracy is calculated by taking the ratio of correctly labelled to total points
-- To validate, **five fold cross validation** is used.
+- Data obtained from extractor.py is used as input.
+- Data for each user is assigned a particular class value (0,1,2,..).
+- train-test split is done separately for each class to ensure train and test set contain appropriate proportions of each class
+- Whole data is then merged, while maintaining the train-test split.
+- Gaussian Naive-Bayes Model is implemented on the split X_train, X_test, y_train, y_test
+- To validate the stability of the model, **five fold cross validation** is used.
 
 ## Execution of code:-
 - Open terminal or ide and run the **main.py** file
@@ -66,12 +64,12 @@ OBTAINED ACCURACY
           
  ###### 2.When number of classes(users) is 8:
            - GaussianNB:-  83.49355%
-           - GaussianNB wit 5-fold Cross validation:- 67.2%
+           - GaussianNB with 5-fold Cross validation:- 67.2%
      
      
  ###### 3.When number of classes(users) is 9: 
             - GaussianNB:-  94.75419%
-            - GaussianNB wit 5-fold Cross validation:- 80.674%
+            - GaussianNB with 5-fold Cross validation:- 80.674%
   
 ## Conclusion:
 We can witness a significant increase in the accuracy when the training dataset is increased.
