@@ -1,3 +1,6 @@
+#extractor function
+# used to extract training data and testing from the collected data set
+
 import time
 import numpy as np
 import math
