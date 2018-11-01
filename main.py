@@ -120,7 +120,7 @@ print("\nNumber of mislabeled points out of a total {} points : {}, Accuracy: {:
           100*(1-(X_test["Class"] != y_pred).sum()/X_test.shape[0])
 ))
 
-#five fold cross validation to increase the accuracy
+#five fold cross validation
 cv = KFold(n_splits=5)
 clf = GaussianNB()
 X_data=X_data.values
